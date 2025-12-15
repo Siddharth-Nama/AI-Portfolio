@@ -58,7 +58,7 @@ const AboutMe = () => {
                                     {/* Photo */}
                                     <div className="w-full h-full rounded-lg overflow-hidden bg-gray-800 relative">
                                         <img 
-                                            src="/work.png" 
+                                            src="/work.jpg" 
                                             alt="Anubhav Gupta - Full Stack Developer at work" 
                                             className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-110"
                                             onError={(e) => e.currentTarget.src = 'https://placehold.co/400x550/111827/ffffff?text=Image+Not+Found'}

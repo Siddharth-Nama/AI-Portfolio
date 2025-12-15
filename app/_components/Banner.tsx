@@ -194,7 +194,7 @@ const Banner: React.FC = () => {
                             <div className="relative w-full h-full bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 rounded-2xl p-1 shadow-2xl border border-gray-600" style={{ boxShadow: `0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3)` }}>
                                 <div className="w-full h-full bg-gradient-to-br from-gray-900 to-black rounded-xl p-1 shadow-inner">
                                     <div className="w-full h-full rounded-lg overflow-hidden bg-gray-800 relative">
-                                        <img src="/profile.png" alt="Anubhav - Full Stack Developer" className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-110" />
+                                        <img src="/profile.jpg" alt="Anubhav - Full Stack Developer" className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-110" />
                                         <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent pointer-events-none"></div>
                                         <div className="absolute inset-0 shadow-inner rounded-lg pointer-events-none" style={{ boxShadow: "inset 0 0 20px rgba(6, 182, 212, 0.1)" }}></div>
                                     </div>

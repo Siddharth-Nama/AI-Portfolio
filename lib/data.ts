@@ -1,16 +1,16 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'anubhavgu2002@gmail.com',
+    email: 'siddharthnama.work@gmail.com',
 
     emailSubject: "Let's build together...",
-    emailBody: 'Hi Anubhav, I am reaching out to you because...',
+    emailBody: 'Hi Siddharth, I am reaching out to you because...',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Anubhavgupta14' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/anubhavgupta14' },
-    { name: 'x', url: 'https://www.x.com/theanubhav14' },
+    { name: 'github', url: 'https://github.com/Siddharth-Nama' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/siddharth-nama' },
+    { name: 'x', url: 'https://www.x.com/siddharthnama26' },
 ];
 
 export const MY_STACK = {

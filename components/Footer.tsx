@@ -10,7 +10,7 @@ const Footer = async () => {
     return (
         <footer className="text-center pb-5" id="contact">
             <div className="container">
-                <p className="text-lg">Have a project in mind?</p>
+                <p className="text-lg">Have a project in mind / want to hire me?</p>
                 <a
                     href={`mailto:${GENERAL_INFO.email}`}
                     className="text-3xl sm:text-4xl font-anton inline-block mt-5 mb-10 hover:underline"
@@ -20,11 +20,11 @@ const Footer = async () => {
 
                 <div className="">
                     <a
-                        href="https://github.com/Anubhavgupta14"
+                        href="https://github.com/Siddharth-Nama"
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Design & built by Anubhav Gupta
+                        Customised by Siddharth Nama
                     </a>
                 </div>
             </div>
