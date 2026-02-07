@@ -11,6 +11,7 @@ export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Siddharth-Nama' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/siddharth-nama' },
     { name: 'x', url: 'https://www.x.com/siddharthnama26' },
+    { name: 'leetcode', url: 'https://www.leetcode.com/u/Siddharth-Nama' },
 ];
 
 export const MY_STACK = {
@@ -20,28 +21,32 @@ export const MY_STACK = {
         { name: 'JavaScript', icon: '/logo/js.png' },
         { name: 'TypeScript', icon: '/logo/ts.png' },
         { name: 'React', icon: '/logo/react.png' },
-        { name: 'React Native', icon: '/logo/react.png' }, // Reusing react icon for now
+        { name: 'React Native', icon: '/logo/react.png' }, 
         { name: 'Next.js', icon: '/logo/next.png' },
-        { name: 'Vite', icon: '/logo/vite.png' }, // Assuming vite logo exists or will be added, fallback to generic if broken? Sticking to likely existing or generic.
+        { name: 'Vite', icon: '/logo/vite.png' }, 
         { name: 'Tailwind CSS', icon: '/logo/tailwind.png' },
         { name: 'Bootstrap', icon: '/logo/bootstrap.svg' },
     ],
     backend: [
-        { name: 'Django', icon: '/logo/django.svg' }, // Assuming django exists or placeholder
+        { name: 'Django', icon: '/logo/django.png' },
         { name: 'Python', icon: '/logo/python.png' },
-        { name: 'C++', icon: '/logo/cpp.png' },
+        { name: 'Node.js', icon: '/logo/node.png' },
+        { name: 'C++', icon: '/logo/c++.png' },
         { name: 'C', icon: '/logo/c.png' },
     ],
     database: [
+        { name: 'SQL', icon: '/logo/sql.png' },
         { name: 'PostgreSQL', icon: '/logo/postgreSQL.png' },
-        { name: 'SQLite', icon: '/logo/sqlite.svg' },
+        { name: 'SQLite', icon: '/logo/sqlite.png' },
+        { name: 'MongoDB', icon: '/logo/mongodb.png' },
     ],
     tools: [
         { name: 'Git', icon: '/logo/git.png' },
-        { name: 'Github', icon: '/logo/github.svg' },
-        { name: 'VS Code', icon: '/logo/vscode.svg' },
-        { name: 'Postman', icon: '/logo/postman.svg' },
-        { name: 'Vercel', icon: '/logo/vercel.svg' },
+        { name: 'Github', icon: '/logo/github.png' },
+        { name: 'VS Code', icon: '/logo/vscode.png' },
+        { name: 'Postman', icon: '/logo/postman.png' },
+        { name: 'Vercel', icon: '/logo/vercel.png' },
+        { name: 'AWS', icon: '/logo/aws.png' },
         { name: 'Pythonanywhere', icon: '/logo/pythonanywhere.png' },
     ],
 };
@@ -51,9 +56,9 @@ export const PROJECTS: IProject[] = [
         title: 'Scripty',
         slug: 'scripty',
         techStack: ['Python', 'Tesseract OCR', 'Deepseek API', 'Gemini API', 'Django', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
-        thumbnail: '/projects/thumbnail/pinewheel.png', // Placeholder
-        images: ['/projects/images/pinewheel1.png', '/projects/images/pinewheel2.jpeg'], // Placeholders
-        year: 2024, // Assumed year based on recent projects
+        thumbnail: '/projects/thumbnail/scripty.png', 
+        images: ['/projects/images/scripty1.png', '/projects/images/scripty2.png'], 
+        year: 2025, 
         description: `
         Developed an AI-powered PDF-to-handwritten conversion tool with 1,000 + active users, improving text processing speed by 70%.<br/><br/>
         Key Features:<br/>
@@ -138,6 +143,7 @@ export const EDUCATION = [
 export const ACHIEVEMENTS = [
     'Led the organization and execution of the SGC Elections 2025 at IIIT Bhagalpur (1,000+ students).',
     'Co-authored a RESEARCH PAPER on AI-Powered Monitoring & Optimization of Student Activities Online.',
-    'Documented 270+ days of coding progress on Twitter.',
+    'Documented 300 + days of coding progress on Twitter, demonstrating consistency and growth mindset.',
     'Solved 500+ Coding Questions: 200+ on CodeChef (3 Star), 130+ on LeetCode, 150+ on Codeforces.',
+    'Won the C4GT- 2025 Open-Source Hackathon among 8,000+ participants by delivering production-ready open-source contribution',
 ];
