@@ -141,8 +141,8 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://www.mercato.agency/',
     },
     {
-        title: 'UsersDB',
-        slug: 'usersdb',
+        title: 'Suvidha Manch',
+        slug: 'suvidhamanch',
         techStack: ['React Native', 'TypeScript', 'Python', 'Django', 'PostgreSQL', 'REST API'],
         thumbnail: '/projects/thumbnail/soulvedic.jpeg', // Placeholder
         images: ['/projects/images/soulvedic1.png', '/projects/images/soulvedic2.png'], // Placeholders
