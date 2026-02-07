@@ -76,6 +76,27 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://scripty.vercel.app',
     },
     {
+        title: 'DroneX',
+        slug: 'DroneX',
+        techStack: ['React.js', 'Django', 'Python', 'JavaScript', 'PostgreSQL', 'Tailwind CSS', 'Vercel', 'PythonAnywhere'],
+        thumbnail: '/projects/thumbnail/dronex.png', 
+        images: ['/projects/images/dronex1.png', '/projects/images/dronex2.png'], 
+        year: 2026, 
+        description: `
+        DroneX is a full-stack application designed as a scalable ground control station (GCS) for planning and managing autonomous drone survey missions. The system enables users to define survey areas and flight paths, visualize mission progress, monitor drone fleet status, and generate mission reports through an intuitive dashboard. Built with modern frontend and backend technologies, it emphasizes real-time visualization, responsive UI, and extensible architecture suitable for operational drone control workflows. 
+        <br/> <br/>Key Features:<br/>
+        <ul>
+            <li>Full mission planning and configuration with interactive path creation</li>
+            <li>Live drone status and fleet visualization on dashboard components.</li>
+            <li>Mission progress tracking with real-time updates.</li>
+            <li>Comprehensive reporting and analytics for completed surveys.</li>
+        </ul>
+        `,
+        role: 'Implemented the project end-to-end, developing both the backend APIs and frontend interface, integrating real-time mission visualization and dashboard components, and ensuring a scalable architecture ready for further enhancements.',
+        sourceCode: 'https://github.com/Siddharth-Nama/flytbase-assessment',
+        liveUrl: 'https://flytbase-assessment.vercel.app/',
+    },
+    {
         title: 'Smart Campus - IIITBH',
         slug: 'smart-campus-iiitbh',
         techStack: ['Django', 'Python', 'PostgreSQL', 'Rest API', 'React', 'HTML', 'CSS', 'JavaScript'],
