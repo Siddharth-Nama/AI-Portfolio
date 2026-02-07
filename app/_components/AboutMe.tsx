@@ -100,13 +100,6 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Introductory quote section */}
-                 <div className="mt-24 sm:mt-32 text-center max-w-4xl mx-auto">
-                    <h3 className="text-2xl md:text-3xl font-light text-gray-200 slide-up-and-fade">
-                        “I&apos;m dedicated to achieving perfection through collaboration, working closely with clients to understand their vision and delivering solutions that are precisely tailored to their specific needs and aspirations.”
-                    </h3>
-                </div>
             </div>
         </section>
     );

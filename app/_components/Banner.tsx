@@ -187,9 +187,9 @@ const Banner: React.FC = () => {
   );
 
   const stats = [
-    { value: "2+", label: "Years of Experience" },
-    { value: "7+", label: "Completed Projects" },
-    { value: "8K+", label: "Hours Worked" },
+    { value: "3", label: "Internships Experience" },
+    { value: "15+", label: "Completed Projects" },
+    { value: "4K+", label: "Hours Worked" },
   ];
 
   return (
@@ -199,7 +199,7 @@ const Banner: React.FC = () => {
       ref={containerRef}
     >
       {/* The z-20 here establishes a stacking context for the banner content */}
-      <div className="relative z-20 container mx-auto h-full flex items-center justify-between px-4 lg:px-8">
+      <div className="relative z-20 container mx-auto h-full flex items-center justify-between px-2 lg:px-4">
         <div className="flex-1 max-w-2xl">
           <h1 className="leading-[.95] text-6xl sm:text-[80px] font-anton uppercase">
             <span className="text-[#5EABD6] block overflow-hidden">
@@ -223,7 +223,7 @@ const Banner: React.FC = () => {
           </p>
           <div className="fade-in-item flex flex-wrap gap-4 mt-9">
             <a
-              href="#"
+              href="mailto:siddharthnama.work@gmail.com?subject="
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-block px-8 py-4 text-lg font-semibold bg-[#5EABD6] text-black rounded-full overflow-hidden transition-transform duration-300 hover:scale-105"

@@ -11,9 +11,9 @@ export default function Home() {
         <div className="page-">
             <Banner />
             <AboutMe />
-            <Education />
             <Skills />
             <Experiences />
+            <Education />
             <ProjectList />
             <Achievements />
         </div>

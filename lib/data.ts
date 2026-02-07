@@ -22,7 +22,7 @@ export const MY_STACK = {
         { name: 'React', icon: '/logo/react.png' },
         { name: 'React Native', icon: '/logo/react.png' }, // Reusing react icon for now
         { name: 'Next.js', icon: '/logo/next.png' },
-        { name: 'Vite', icon: '/logo/vite.svg' }, // Assuming vite logo exists or will be added, fallback to generic if broken? Sticking to likely existing or generic.
+        { name: 'Vite', icon: '/logo/vite.png' }, // Assuming vite logo exists or will be added, fallback to generic if broken? Sticking to likely existing or generic.
         { name: 'Tailwind CSS', icon: '/logo/tailwind.png' },
         { name: 'Bootstrap', icon: '/logo/bootstrap.svg' },
     ],
@@ -106,19 +106,22 @@ export const MY_EXPERIENCE = [
         title: 'Intern (Code for Government Tech 2025)',
         company: 'Haryana Government and Samagra Governance',
         duration: 'June 2025 – August 2025',
-        description: 'Spearheaded Suvidha Manch (Road Taxonomy and InfraTracker) to digitise 25,000+ roads. Promoted mid-program for exceptional performance; led a team and coordinated with officials.', // Added description field to object if accepted by UI, else it's just extra data
+        description1: 'Spearheaded Suvidha Manch (Road Taxonomy and InfraTracker), entrusted by the Commissioner of Rohtak to digitise 25,000 + roads, laying the foundation for a nationwide rollout.', 
+        description2: 'Promoted mid-program for exceptional performance; led a team and coordinated with 2 government officials to drive large-scale adoption and ensure end-to-end digitisation logistics.'
     },
     {
         title: 'SDE Intern',
         company: 'Mercato Agency',
         duration: 'June 2025 – August 2025',
-        description: 'Designed and optimised web interfaces using React and RESTful APIs from 10,000+ users. Redesigned scalable front-end and back-end modules, reducing page load time by 40%.',
+        description1: 'Designed and optimised web interfaces using React and RESTful APIs to improve user experience and efficiently handle 10,000+ users, resulting in a 30% increase in site performance.',
+        description2: 'Redesigned scalable front-end and back-end modules, reducing page load time by 40% and enhancing responsiveness across multiple devices.',
     },
     {
         title: 'Full-Stack Developer Intern',
         company: 'Esaral Ventures, Kota',
         duration: 'May 2024 – July 2024',
-        description: 'Built and deployed 3+ full-stack web/mobile apps using Django, REST APIs, and React/React Native. Redesigned database schemas increasing query efficiency.',
+        description1: 'Built and deployed 3 + full-stack web/mobile apps using Django, REST APIs, and React/React Native, delivering scalable solutions that streamlined development workflows.',
+        description2: 'Redesigned database schemas and restructured microservices, increasing query efficiency and enabling 30% rise in user engagement,enhanced features to boost performance by 25%.',
     },
 ];
 
@@ -127,7 +130,8 @@ export const EDUCATION = [
         degree: 'Bachelor of Technology in Computer Science Engineering',
         institution: 'Indian Institute of Information Technology Bhagalpur',
         duration: 'November 2022 – July 2026',
-        details: 'CGPA: 7.78 (absolute). Coursework: Data Structures & Algorithms, OOP, DBMS, Software Engineering, OS, Computer Networks.',
+        details1: 'CGPA: 7.78 (absolute), 8.17 (Highest SGPA)',
+        details2: 'Coursework: Data Structures & Algorithms, OOP, DBMS, Software Engineering, OS, Computer Networks.',
     }
 ];
 
