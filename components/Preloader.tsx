@@ -14,7 +14,7 @@ interface PreloaderProps {
 }
 
 const Preloader: React.FC<PreloaderProps> = ({ 
-    name = "ANUBHAV", 
+    name = "SIDDHARTH NAMA", 
     subtitle = "Welcome to my digital world." 
 }) => {
     const preloaderRef = useRef<HTMLDivElement>(null);

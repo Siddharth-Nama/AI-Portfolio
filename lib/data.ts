@@ -2,12 +2,12 @@ import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
     email: 'siddharthnama.work@gmail.com',
-
     emailSubject: "Let's build together...",
     emailBody: 'Hi Siddharth, I am reaching out to you because...',
 };
 
 export const SOCIAL_LINKS = [
+    { name: 'linktree', url: 'https://linktr.ee/siddharthnama' },
     { name: 'github', url: 'https://github.com/Siddharth-Nama' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/siddharth-nama' },
     { name: 'x', url: 'https://www.x.com/siddharthnama26' },
@@ -15,272 +15,125 @@ export const SOCIAL_LINKS = [
 
 export const MY_STACK = {
     frontend: [
-        {
-            name: 'HTML',
-            icon: '/logo/html.png'
-        },
-        {
-            name: 'CSS',
-            icon: '/logo/css.png'
-        },
-        {
-            name: 'JavaScript',
-            icon: '/logo/js.png',
-        },
-        {
-            name: 'TypeScript',
-            icon: '/logo/ts.png',
-        },
-        {
-            name: 'React',
-            icon: '/logo/react.png',
-        },
-        {
-            name: 'Next.js',
-            icon: '/logo/next.png',
-        },
-        {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
-            name: 'Tailwind CSS',
-            icon: '/logo/tailwind.png',
-        },
-        {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
-        },
+        { name: 'HTML', icon: '/logo/html.png' },
+        { name: 'CSS', icon: '/logo/css.png' },
+        { name: 'JavaScript', icon: '/logo/js.png' },
+        { name: 'TypeScript', icon: '/logo/ts.png' },
+        { name: 'React', icon: '/logo/react.png' },
+        { name: 'React Native', icon: '/logo/react.png' }, // Reusing react icon for now
+        { name: 'Next.js', icon: '/logo/next.png' },
+        { name: 'Vite', icon: '/logo/vite.svg' }, // Assuming vite logo exists or will be added, fallback to generic if broken? Sticking to likely existing or generic.
+        { name: 'Tailwind CSS', icon: '/logo/tailwind.png' },
+        { name: 'Bootstrap', icon: '/logo/bootstrap.svg' },
     ],
     backend: [
-        {
-            name: 'Node.js',
-            icon: '/logo/node.png',
-        },
-        {
-            name: 'Express.js',
-            icon: '/logo/express.png',
-        },
-        {
-            name: 'Python',
-            icon: '/logo/python.png'
-        }
+        { name: 'Django', icon: '/logo/django.svg' }, // Assuming django exists or placeholder
+        { name: 'Python', icon: '/logo/python.png' },
+        { name: 'C++', icon: '/logo/cpp.png' },
+        { name: 'C', icon: '/logo/c.png' },
     ],
     database: [
-        {
-            name: 'MongoDB',
-            icon: '/logo/mongodb.svg',
-        },
-        {
-            name: 'MySQL',
-            icon: '/logo/mysql.svg',
-        },
-        {
-            name: 'PostgreSQL',
-            icon: '/logo/postgreSQL.png',
-        },
-        {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
-        },
+        { name: 'PostgreSQL', icon: '/logo/postgreSQL.png' },
+        { name: 'SQLite', icon: '/logo/sqlite.svg' },
     ],
-    Devops: [
-        {
-            name: 'Git',
-            icon: '/logo/git.png',
-        },
-        {
-            name: 'Docker',
-            icon: '/logo/docker.svg',
-        },
-        {
-            name: 'Kubernates',
-            icon: '/logo/k8s.png',
-        },
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
-        },
+    tools: [
+        { name: 'Git', icon: '/logo/git.png' },
+        { name: 'Github', icon: '/logo/github.svg' },
+        { name: 'VS Code', icon: '/logo/vscode.svg' },
+        { name: 'Postman', icon: '/logo/postman.svg' },
+        { name: 'Vercel', icon: '/logo/vercel.svg' },
+        { name: 'Pythonanywhere', icon: '/logo/pythonanywhere.png' },
     ],
-    "LLM Frameworks": [
-        {
-            name: 'Langchain',
-            icon: '/logo/langchain.svg'
-        },
-        {
-            name: 'Langgraph',
-            icon: '/logo/langgraph.svg'
-        },
-        {
-            name: 'Langsmith',
-            icon: '/logo/langsmith.svg'
-        },
-    ]
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Pinewheel AI',
-        slug: 'pinewheel-ai',
-        techStack: ['Next.js', 'LLM Integration', 'Langchain', 'Python', 'Web Optimization'],
-        // Note: Replace with actual image paths
-        thumbnail: '/projects/thumbnail/pinewheel.png',
-        images: [
-            '/projects/images/pinewheel2.jpeg',
-            '/projects/images/pinewheel1.png',
-        ],
-        liveUrl: 'https://pinewheel.ai',
-        year: 2025,
+        title: 'Scripty',
+        slug: 'scripty',
+        techStack: ['Python', 'Tesseract OCR', 'Deepseek API', 'Gemini API', 'Django', 'SQLite', 'HTML', 'CSS', 'JavaScript'],
+        thumbnail: '/projects/thumbnail/pinewheel.png', // Placeholder
+        images: ['/projects/images/pinewheel1.png', '/projects/images/pinewheel2.jpeg'], // Placeholders
+        year: 2024, // Assumed year based on recent projects
         description: `
-        A cybersecurity platform that leverages AI to automate and enhance security testing. <br/><br/>
-        Key Features: <br/>
+        Developed an AI-powered PDF-to-handwritten conversion tool with 1,000 + active users, improving text processing speed by 70%.<br/><br/>
+        Key Features:<br/>
         <ul>
-            <li>🤖 ML Integration: Integrated machine learning models to automate vulnerability assessments, achieving a 95% accuracy rate.</li>
-            <li>⚡ Web App Optimization: Optimized the web application by 50% by reducing bundle size and improving compile time.</li>
-            <li>🔎 Dynamic Request Fuzzer: Produced a logic to analyze and fuzz HTTP requests using LLMs, improving security testing efficiency.</li>
-            <li>✍️ Blog Management: Developed a blog management system for knowledge sharing.</li>
+            <li>📄 Customized PDF Generation: Enabled customizable PDF generation with a handwriting font, reducing manual note-taking effort by 80% for 1,000 + professionals.</li>
+            <li>🚀 AI Integration: Utilized Deepseek and Gemini APIs alongside Tesseract OCR for accurate text extraction and conversion.</li>
         </ul>
         `,
-        role: `As a Full Stack Developer, my role involves integrating AI/ML models into the core platform, leading optimization efforts to enhance performance, and developing new security tools using large language models.`,
+        role: 'Full-Stack Developer',
     },
     {
-        title: 'The Hollywood Reporter India',
-        slug: 'hollywood-reporter-india',
-        techStack: ['React', 'Redux', 'JavaScript', 'State Management', 'API Performance'],
-        // Note: Replace with actual image paths
-        thumbnail: '/projects/thumbnail/hollywood.jpeg',
-        images: [
-            '/projects/images/hollywood1.png',
-            '/projects/images/hollywood2.png',
-        ],
-        liveUrl: 'https://hollywoodreporterindia.com',
+        title: 'Smart Campus - IIITBH',
+        slug: 'smart-campus-iiitbh',
+        techStack: ['Django', 'Python', 'PostgreSQL', 'Rest API', 'React', 'HTML', 'CSS', 'JavaScript'],
+        thumbnail: '/projects/thumbnail/hollywood.jpeg', // Placeholder
+        images: ['/projects/images/hollywood1.png', '/projects/images/hollywood2.png'], // Placeholders
         year: 2024,
         description: `
-        A high-traffic media website for 'The Hollywood Reporter India' under the RPSG Group. The project focused on robust content delivery, seamless state management, and high availability. <br/><br/>
+        A comprehensive campus management suite consisting of multiple modules.<br/><br/>
+        Key Modules:<br/>
+        <ul>
+            <li>🗳️ Election Portal IIITBH: Enabled 1,000 + users with secure digital voting, automated tallying, live results, and history tracking.</li>
+            <li>🏫 PreAbs (Attendance Portal): Role-based system for 800 + users across 40 + classes, reducing errors using teacher-generated codes.</li>
+            <li>💊 Meditrack IIITBH: Built as sole developer, managing 500 + medicines for 1,000 + students with 60% efficiency improvement and full restocking.</li>
+        </ul>
+        `,
+        role: 'Full-Stack Developer',
+    },
+    {
+        title: 'UsersDB',
+        slug: 'usersdb',
+        techStack: ['React Native', 'TypeScript', 'Python', 'Django', 'PostgreSQL', 'REST API'],
+        thumbnail: '/projects/thumbnail/soulvedic.jpeg', // Placeholder
+        images: ['/projects/images/soulvedic1.png', '/projects/images/soulvedic2.png'], // Placeholders
+        year: 2024,
+        description: `
+        Built the UsersDB App with a seamless Android/iOS experience.<br/><br/>
         Key Achievements:<br/>
         <ul>
-            <li>📈 Increased user conversions by 20% through strategic development.</li>
-            <li>🔄 Implemented React Redux for seamless state management across the application.</li>
-            <li>🛠️ Developed functionalities for the admin dashboard.</li>
-            <li>⏱️ Monitored production systems to ensure 99.9% uptime and optimal API performance.</li>
+            <li>🖼️ Advanced Image Compression: Implemented compression (from 10 MB to 100 KB) to reduce load time by 90%.</li>
+            <li>📱 Responsive Usability: Ensured responsive multi-device usability and smooth performance across varying network conditions.</li>
         </ul>
         `,
-        role: `As a Full Stack Developer at Zerror Studios, I played a key role in building the website, focusing on both frontend state management with Redux and backend system monitoring to ensure high performance and reliability.`,
-    },
-    {
-        title: 'Soul Vedic Store',
-        slug: 'soul-vedic-store',
-        techStack: [
-            'Next.js',
-            'Redux',
-            'Express.js',
-            'Node.js',
-            'MongoDB',
-            'CSS',
-            'JavaScript',
-        ],
-        // Note: Replace with actual image paths
-        thumbnail: '/projects/thumbnail/soulvedic.jpeg',
-        images: [
-            '/projects/images/soulvedic1.png',
-            '/projects/images/soulvedic2.png',
-        ],
-        liveUrl: 'https://soul-vedic-project.vercel.app', // The resume mentions a "Live Demo"
-        sourceCode: 'https://github.com/Anubhavgupta14/SoulVedic-Store', // The resume mentions "Code"
-        year: 2024,
-        description: `
-        An e-commerce fashion platform designed to provide an engaging and seamless shopping experience. <br/><br/>
-        Key Features: <br/>
-        <ul>
-            <li>✨ Engaging Animations: Implemented GSAP animations, which improved user engagement by 20%.</li>
-            <li>🛒 Persistent Cart: Used Redux Persist for seamless cart state management, enabling checkout without login and increasing conversions by 15%.</li>
-            <li>🚚 Automated Shipping: Integrated Shiprocket to automate shipping workflows and streamline logistics.</li>
-            <li>⚡ Fast Data Retrieval: Structured RESTful APIs in Express.js, improving data retrieval speed by 40%.</li>
-        </ul>
-        `,
-        role: `As the sole developer, I was responsible for the end-to-end development, including frontend, backend, and third-party integrations to build a feature-rich e-commerce platform.`,
-    },
-    {
-        title: 'The Design Engg',
-        slug: 'the-design-engg',
-        techStack: [
-            'Next.js',
-            'Express.js',
-            'Node.js',
-            'MongoDB',
-            'CSS',
-            'HTML',
-            'JavaScript',
-        ],
-        // Note: Replace with actual image paths
-        thumbnail: '/projects/thumbnail/design.jpeg',
-        images: [
-            '/projects/images/design1.png',
-            '/projects/images/design2.png',
-        ],
-        liveUrl: 'https://thedesignengg.vercel.app', // The resume mentions a "Live Demo"
-        sourceCode: 'https://github.com/Anubhavgupta14/Dsign_Engg', // The resume mentions "Code"
-        year: 2023,
-        description: `
-        A specialized platform featuring a metallurgical calculator to automate complex industrial calculations, significantly reducing manual workload for professionals in the field. <br/><br/>
-        Key Features:<br/>
-        <ul>
-            <li>️‍️⚙️ Industrial Calculator: Built a tool to automate metallurgical calculations, reducing manual workload by 30%.</li>
-            <li>💳 Payment Integration: Integrated CCAvenue and PayPal, which increased transaction success rates by 10%.</li>
-            <li>📈 Client Dashboard: Organized a client dashboard for order tracking, file downloads, and subscription management, improving customer satisfaction by 15%.</li>
-        </ul>
-        `,
-        role: `I developed this platform from the ground up, focusing on creating a robust backend for calculations, integrating secure payment gateways, and building a user-friendly client dashboard to manage services.`,
-    },
-    {
-        title: 'Lets-Test',
-        slug: 'lets-test',
-        techStack: ['Next.js', 'MongoDB', 'Tailwind CSS', 'Shadcn'],
-        // Note: Replace with actual image paths
-        thumbnail: '/projects/thumbnail/test.jpeg',
-        images: [
-            '/projects/images/test1.jpeg',
-            '/projects/images/test2.png',
-        ],
-        liveUrl: 'https://lets-test12.vercel.app/', // The resume mentions a "Live Demo"
-        sourceCode: 'https://github.com/Anubhavgupta14/lets-test', // The resume mentions "Code"
-        year: 2025,
-        description: `
-        A mock test platform where companies can create and host test series for students. The platform was successfully tested with over 300 users and is tailored for competitive exam aspirants (JEE/NEET).<br/><br/>
-        Key Features:<br/>
-        <ul>
-            <li>📝 Custom Test Series: Allows companies to create and manage their own test series for students.</li>
-            <li>👨‍🎓 Student-Focused: Specifically assessed for competitive exam aspirants like JEE/NEET, providing an interactive test experience.</li>
-            <li>✅ User Tested: The platform has been validated and tested by a user base of over 300 individuals.</li>
-        </ul>
-        `,
-        role: `My role was to develop the entire platform, creating the infrastructure for companies to build tests and for students to have an interactive and smooth test-taking experience.`,
+        role: 'Mobile & Full-Stack Developer',
     },
 ];
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Full Stack Developer (Internship)',
-        company: 'Pinewheel Labs',
-        duration: 'Jan 2025 - Present',
+        title: 'Intern (Code for Government Tech 2025)',
+        company: 'Haryana Government and Samagra Governance',
+        duration: 'June 2025 – August 2025',
+        description: 'Spearheaded Suvidha Manch (Road Taxonomy and InfraTracker) to digitise 25,000+ roads. Promoted mid-program for exceptional performance; led a team and coordinated with officials.', // Added description field to object if accepted by UI, else it's just extra data
     },
     {
-        title: 'Full Stack Developer (Freelance)',
-        company: 'Pixels & Grids',
-        duration: 'Nov 2024 - Dec 2024',
+        title: 'SDE Intern',
+        company: 'Mercato Agency',
+        duration: 'June 2025 – August 2025',
+        description: 'Designed and optimised web interfaces using React and RESTful APIs from 10,000+ users. Redesigned scalable front-end and back-end modules, reducing page load time by 40%.',
     },
     {
-        title: 'Full Stack Developer (Part Time)',
-        company: 'Zerror Studios',
-        duration: 'June 2023 - Oct 2024',
+        title: 'Full-Stack Developer Intern',
+        company: 'Esaral Ventures, Kota',
+        duration: 'May 2024 – July 2024',
+        description: 'Built and deployed 3+ full-stack web/mobile apps using Django, REST APIs, and React/React Native. Redesigned database schemas increasing query efficiency.',
     },
+];
+
+export const EDUCATION = [
     {
-        title: 'Frontend Developer (Internship)',
-        company: 'Zerror Studios',
-        duration: 'July 2023 - April 2023',
-    },
+        degree: 'Bachelor of Technology in Computer Science Engineering',
+        institution: 'Indian Institute of Information Technology Bhagalpur',
+        duration: 'November 2022 – July 2026',
+        details: 'CGPA: 7.78 (absolute). Coursework: Data Structures & Algorithms, OOP, DBMS, Software Engineering, OS, Computer Networks.',
+    }
+];
+
+export const ACHIEVEMENTS = [
+    'Led the organization and execution of the SGC Elections 2025 at IIIT Bhagalpur (1,000+ students).',
+    'Co-authored a RESEARCH PAPER on AI-Powered Monitoring & Optimization of Student Activities Online.',
+    'Documented 270+ days of coding progress on Twitter.',
+    'Solved 500+ Coding Questions: 200+ on CodeChef (3 Star), 130+ on LeetCode, 150+ on Codeforces.',
 ];

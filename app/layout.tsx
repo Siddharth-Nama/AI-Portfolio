@@ -37,8 +37,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   })
 
 export const metadata: Metadata = {
-    title: 'Anubhav Gupta',
-    description: 'Personal portfolio of Anubhav Gupta',
+    title: 'Siddharth Nama',
+    description: 'Personal portfolio of Siddhart Nama',
 };
 
 export default function RootLayout({

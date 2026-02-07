@@ -24,8 +24,7 @@ const Footer = async () => {
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Customised by Siddharth Nama
-                    </a>
+                        Customised by Siddharth Nama</a>, Inspired by <a href="https://gowithcode.vercel.app/" target="_blank" className="hover:underline">Anubhav's Portfolio</a>
                 </div>
             </div>
         </footer>

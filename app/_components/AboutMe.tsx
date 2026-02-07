@@ -87,10 +87,11 @@ const AboutMe = () => {
                             About Me
                         </p>
                         <h2 className="text-4xl md:text-5xl font-bold mt-2 slide-up-and-fade">
-                            Hi, I&apos;m Anubhav Gupta.
+                            Hi, I&apos;m Siddharth Nama.
                         </h2>
                         <div className="mt-6 text-lg text-gray-300 space-y-4 max-w-xl">
                             <p className="slide-up-and-fade">
+                                I’m Siddharth, a software engineer who builds real-world, scalable systems and turns ideas into production-ready products.
                                 I&apos;m a <strong>Full Stack Developer</strong> dedicated to building high-performance, scalable web solutions. I specialize in developing robust applications, from large-scale SaaS platforms to <strong>AI-powered tools</strong>.
                             </p>
                             <p className="slide-up-and-fade">

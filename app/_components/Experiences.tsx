@@ -115,6 +115,7 @@ const ExperiencesTimeline = () => {
                     <p className="text-lg text-muted-foreground mb-2">{item.company}</p>
                     <h3 className="text-2xl md:text-3xl font-anton leading-tight mb-2">{item.title}</h3>
                     <p className="text-base text-muted-foreground">{item.duration}</p>
+                    {item.description && <p className="mt-4 text-sm md:text-base text-gray-300">{item.description}</p>}
                   </div>
                 </div>
 
@@ -130,6 +131,7 @@ const ExperiencesTimeline = () => {
                     <p className="text-lg text-muted-foreground mb-2">{item.company}</p>
                     <h3 className="text-2xl font-anton leading-tight mb-2">{item.title}</h3>
                     <p className="text-base text-muted-foreground">{item.duration}</p>
+                    {item.description && <p className="mt-4 text-sm text-gray-300">{item.description}</p>}
                   </div>
                 </div>
 
