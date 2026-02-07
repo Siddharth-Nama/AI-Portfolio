@@ -22,6 +22,7 @@ export const MY_STACK = {
         { name: 'TypeScript', icon: '/logo/ts.png' },
         { name: 'React', icon: '/logo/react.png' },
         { name: 'React Native', icon: '/logo/react.png' }, 
+        { name: 'Redux', icon: '/logo/redux.png' }, 
         { name: 'Next.js', icon: '/logo/next.png' },
         { name: 'Vite', icon: '/logo/vite.png' }, 
         { name: 'Tailwind CSS', icon: '/logo/tailwind.png' },
@@ -43,6 +44,7 @@ export const MY_STACK = {
     tools: [
         { name: 'Git', icon: '/logo/git.png' },
         { name: 'Github', icon: '/logo/github.png' },
+        { name: 'Docker', icon: '/logo/docker.svg' },
         { name: 'VS Code', icon: '/logo/vscode.png' },
         { name: 'Postman', icon: '/logo/postman.png' },
         { name: 'Vercel', icon: '/logo/vercel.png' },
@@ -60,14 +62,18 @@ export const PROJECTS: IProject[] = [
         images: ['/projects/images/scripty1.png', '/projects/images/scripty2.png'], 
         year: 2025, 
         description: `
-        Developed an AI-powered PDF-to-handwritten conversion tool with 1,000 + active users, improving text processing speed by 70%.<br/><br/>
-        Key Features:<br/>
+        Scripty is an AI-powered smart assignment generator that converts handwritten or text-based PDFs into clean, editable, and submission-ready handwritten-style documents. It leverages OCR to extract text from uploaded PDFs, uses AI models to rewrite or generate well-structured answers, and renders the final output in natural handwritten fonts with ruled-paper styling, allowing users to make last-minute edits before exporting polished PDFs.
+        <br/> <br/>Key Features:<br/>
         <ul>
-            <li>📄 Customized PDF Generation: Enabled customizable PDF generation with a handwriting font, reducing manual note-taking effort by 80% for 1,000 + professionals.</li>
-            <li>🚀 AI Integration: Utilized Deepseek and Gemini APIs alongside Tesseract OCR for accurate text extraction and conversion.</li>
+            <li>100+ handwritten fonts with the ability to create and use your own handwriting font.</li>
+            <li>100% customization of layout, spacing, font style, and formatting.</li>
+            <li>Reduces assignment preparation time by up to 80%.</li>
+            <li>AI-powered processing for clean, editable, submission-ready documents.</li>
         </ul>
         `,
-        role: 'Full-Stack Developer',
+        role: 'Built Scripty from scratch end-to-end and validated it with 100+ students, improving accuracy and usability through real feedback.',
+        sourceCode: 'https://github.com/Siddharth-Nama/Scripty',
+        liveUrl: 'https://scripty.vercel.app',
     },
     {
         title: 'Smart Campus - IIITBH',

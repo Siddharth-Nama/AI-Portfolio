@@ -8,6 +8,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
 import { useRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 interface Props {
     project: IProject;
@@ -116,7 +118,7 @@ const ProjectDetails = ({ project }: Props) => {
                                         rel="noreferrer noopener"
                                         className="hover:text-primary"
                                     >
-                                        <Github size={30} />
+                                        <FontAwesomeIcon icon={faGithub} size="2x" />
                                     </a>
                                 )}
                                 {project.liveUrl && (
@@ -160,7 +162,7 @@ const ProjectDetails = ({ project }: Props) => {
                             </div>
                             {project.role && (
                                 <div className="fade-in-later">
-                                    <p className="text-muted-foreground font-anton mb-3">
+                                    <p className="text-muted-foreground font-anton mb-0">
                                         My Role
                                     </p>
 
