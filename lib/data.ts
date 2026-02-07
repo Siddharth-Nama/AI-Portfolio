@@ -97,22 +97,48 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://flytbase-assessment.vercel.app/',
     },
     {
-        title: 'Smart Campus - IIITBH',
-        slug: 'smart-campus-iiitbh',
-        techStack: ['Django', 'Python', 'PostgreSQL', 'Rest API', 'React', 'HTML', 'CSS', 'JavaScript'],
-        thumbnail: '/projects/thumbnail/hollywood.jpeg', // Placeholder
-        images: ['/projects/images/hollywood1.png', '/projects/images/hollywood2.png'], // Placeholders
+        title: 'PreAbs - Attendance Portal',
+        slug: 'preabs',
+        techStack: ['React.js', 'Django', 'Python', 'JavaScript', 'PostgreSQL', 'Tailwind CSS', 'Vercel', 'PythonAnywhere'],
+        thumbnail: '/projects/thumbnail/preabs.png', // Placeholder
+        images: ['/projects/images/preabs1.png', '/projects/images/preabs2.png'], // Placeholders
         year: 2024,
         description: `
-        A comprehensive campus management suite consisting of multiple modules.<br/><br/>
+        PreAbs is an intelligent attendance management system built to streamline how attendance is recorded, tracked, and reported for academic use. The platform allows instructors to easily mark and monitor student attendance, generate reports, and download attendance summaries. It emphasizes user-friendly interfaces and robust backend logic to ensure accurate tracking and persistence of records. Designed for scalability and customization, PreAbs can be extended to support role-based access, analytics, and notifications.
+        <br/> <br/>
         Key Modules:<br/>
         <ul>
-            <li>🗳️ Election Portal IIITBH: Enabled 1,000 + users with secure digital voting, automated tallying, live results, and history tracking.</li>
-            <li>🏫 PreAbs (Attendance Portal): Role-based system for 800 + users across 40 + classes, reducing errors using teacher-generated codes.</li>
-            <li>💊 Meditrack IIITBH: Built as sole developer, managing 500 + medicines for 1,000 + students with 60% efficiency improvement and full restocking.</li>
+            <li>Role-Based Access Control (RBAC): Ensures separate access rights for teachers and students.</li>
+            <li>6-Digit Unique Code Generation: Teachers can generate shareable codes (via WhatsApp or other platforms) for attendance.</li>
+            <li>Real-Time Attendance Management: Automatically records and stores attendance securely in the database after teacher approval.</li>
+            <li>User-Friendly Interface: Intuitive design for seamless navigation across functionalities.</li>
         </ul>
         `,
-        role: 'Full-Stack Developer',
+        role: 'Developed the PreAbs portal end-to-end, implementing frontend views and backend APIs, integrating PostgreSQL for reliable data storage, and ensuring responsive UI and seamless attendance workflows.',
+        sourceCode: 'https://github.com/Siddharth-Nama/PreAbs-AttendancePortalIIITBH',
+        liveUrl: 'https://siddharthattendanceportal.pythonanywhere.com/accounts/login/',
+    },
+    {
+        title: 'Mercato Agency',
+        slug: 'mercato',
+        techStack: ['Next.js', 'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML', 'CSS', 'Vercel'],
+        thumbnail: '/projects/thumbnail/mercato.png', // Placeholder
+        images: ['/projects/images/mercato1.png', '/projects/images/mercato2.png'], // Placeholders
+        year: 2025,
+        description: `
+        Built a modern, high-performance marketing website for Mercato Agency during my internship, focused on clearly showcasing services and converting visitors into leads. The site presents the agency’s offerings—including content creation, graphic design, video editing, SEO, and Shopify store setup—through a clean UI, smooth animations, and responsive layouts. It includes reusable UI components, contact forms with email integration, and optimized pages designed for real-world business use.
+        <br/> <br/>
+        Key Modules:<br/>
+        <ul>
+            <li>Business-focused landing pages highlighting agency services.</li>
+            <li>Responsive, modern UI with smooth animations</li>
+            <li>Reusable component-based design system.</li>
+            <li>Contact forms with email/lead capture integration.</li>
+        </ul>
+        `,
+        role: 'Developed the landing page end-to-end using Next.js, implemented responsive layouts and animations, built reusable UI components, and integrated contact forms to capture and manage client leads.',
+        sourceCode: 'https://github.com/Siddharth-Nama/Mercato_Agency',
+        liveUrl: 'https://www.mercato.agency/',
     },
     {
         title: 'UsersDB',
