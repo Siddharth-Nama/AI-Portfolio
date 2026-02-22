@@ -143,19 +143,21 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Suvidha Manch',
         slug: 'suvidhamanch',
-        techStack: ['React Native', 'TypeScript', 'Python', 'Django', 'PostgreSQL', 'REST API'],
-        thumbnail: '/projects/thumbnail/soulvedic.jpeg', // Placeholder
-        images: ['/projects/images/soulvedic1.png', '/projects/images/soulvedic2.png'], // Placeholders
-        year: 2024,
+        techStack: ['Python', 'Django', 'Django REST', 'JWT', 'PostgreSQL', 'React', 'TypeScript', 'Vite', 'Material UI', 'PWA (Service Worker)', 'Nginx', 'Gunicorn'],
+        thumbnail: '/projects/thumbnail/suvidha.png', // Placeholder
+        images: ['/projects/images/suvidha1.png', '/projects/images/suvidha2.png'], // Placeholders
+        year: 2025,
         description: `
-        Built the UsersDB App with a seamless Android/iOS experience.<br/><br/>
+        Built a full-stack municipal infrastructure tracking system during C4GT 2025 to manage roads, contractors, and public works. The platform supports role-based access (JE, AE, XEN, etc.), periodic work updates with image/PDF uploads, inter-department request workflows, and complete audit trails. Designed for real-world government usage with secure authentication, CSV bulk uploads, email notifications, and production-ready deployment.
         Key Achievements:<br/>
         <ul>
-            <li>🖼️ Advanced Image Compression: Implemented compression (from 10 MB to 100 KB) to reduce load time by 90%.</li>
-            <li>📱 Responsive Usability: Ensured responsive multi-device usability and smooth performance across varying network conditions.</li>
+            <li>Roads, Contractors, Infra Works CRUD APIs</li>
+            <li>PWA-enabled frontend with auto token refresh</li>
+            <li>Inter-department request & status workflow</li>
+            <li>Audit logging & aggregated reporting API</li>
         </ul>
         `,
-        role: 'Mobile & Full-Stack Developer',
+        role: 'Full Stack Developer',
     },
 ];
 
