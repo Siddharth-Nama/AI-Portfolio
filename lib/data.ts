@@ -245,6 +245,27 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         sourceCode: 'https://github.com/Siddharth-Nama/StudentProgressTracker_AI_powered',
         liveUrl: 'https://siddprogresstracker.pythonanywhere.com/',
     },
+    {
+        title: 'UsersDB - React Native',
+        slug: 'usersdb',
+        techStack: ['React Native', 'JavaScript', 'TypeScript', 'Django', 'REST API'],
+        thumbnail: '/projects/thumbnail/usersdb.png', // Placeholder
+        images: ['/projects/images/usersdb1.png', '/projects/images/usersdb2.png'], // Placeholders
+        year: 2025,
+        description: `
+        Built a cross-platform mobile application as my first React Native project to understand mobile development and frontend–backend integration. The app connects to a Django REST API and focuses on efficient data transfer, particularly optimizing large image uploads through on-device compression before API submission.
+        Key Modules:<br/>
+        <ul>
+            <li>Cross-platform mobile form (Android & iOS)</li>
+            <li>REST API integration with Django backend</li>
+            <li>Automatic image compression during upload (10MB → ~10KB)</li>
+            <li>Dynamic UI components with responsive styling</li>
+        </ul>
+        `,
+        role: 'Mobile developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/ReactNativeSimpleForm',
+        liveUrl: 'https://github.com/Siddharth-Nama/ReactNativeSimpleForm',
+    },
 ];
 
 export const MY_EXPERIENCE = [
