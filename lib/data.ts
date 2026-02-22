@@ -183,7 +183,7 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         liveUrl: 'https://siddharthgalxyassignment.vercel.app/',
     },
     {
-        title: 'Medi-Track',
+        title: 'Medi-Track - IIITBH',
         slug: 'meditrack',
         techStack: ['Django', 'Django REST Framework', 'PostgreSQL', 'React', 'Tailwind CSS', 'HTML', 'JavaScript'],
         thumbnail: '/projects/thumbnail/meditrack.png', // Placeholder
@@ -202,6 +202,27 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         role: 'Full stack developer',
         sourceCode: 'https://github.com/Siddharth-Nama/IIITBHMedicalMangementSystem',
         liveUrl: 'https://github.com/Siddharth-Nama/IIITBHMedicalMangementSystem',
+    },
+    {
+        title: 'Election Portal - IIITBH',
+        slug: 'electionportal',
+        techStack: ['Django', 'Python', 'HTML', 'CSS (Bootstrap)', 'JavaScript', 'PostgreSQL'],
+        thumbnail: '/projects/thumbnail/election.png', // Placeholder
+        images: ['/projects/images/election1.png', '/projects/images/election2.png'], // Placeholders
+        year: 2025,
+        description: `
+        Developed a secure online voting platform for IIIT Bhagalpur to digitize and streamline the college election process. The system enables administrators to manage elections, positions, and candidates, while allowing verified voters to cast single, secure votes electronically. Built with automatic vote tallying and real-time result monitoring for transparency and efficiency.
+        Key Modules:<br/>
+        <ul>
+            <li>Admin dashboard for election, position & candidate management</li>
+            <li>One-vote-per-position validation logic</li>
+            <li>Automatic vote counting & real-time results</li>
+            <li>Responsive voting interface for seamless user experience</li>
+        </ul>
+        `,
+        role: 'Full stack developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/OFFICIAL_IIITBH_ELECTION_PORTAL',
+        liveUrl: 'https://siddharthnama2201070cs.pythonanywhere.com/account/',
     },
 ];
 
