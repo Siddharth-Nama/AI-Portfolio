@@ -182,6 +182,27 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         sourceCode: 'https://github.com/Siddharth-Nama/galaxy.ai_assessment',
         liveUrl: 'https://siddharthgalxyassignment.vercel.app/',
     },
+    {
+        title: 'Medi-Track',
+        slug: 'meditrack',
+        techStack: ['Django', 'Django REST Framework', 'PostgreSQL', 'React', 'Tailwind CSS', 'HTML', 'JavaScript'],
+        thumbnail: '/projects/thumbnail/meditrack.png', // Placeholder
+        images: ['/projects/images/meditrack1.png', '/projects/images/meditrack2.png'], // Placeholders
+        year: 2024,
+        description: `
+        Developed a centralized medical inventory and distribution management system for the Medical Department at IIIT Bhagalpur. The platform streamlines medicine stock management, tracks student distributions, and generates bills automatically. Deployed on the college server for real-world administrative use with accurate record-keeping and stock updates.
+        Key Modules:<br/>
+        <ul>
+            <li>Medicine inventory management (CRUD with live stock tracking)</li>
+            <li>Student medicine distribution logging with auto stock deduction</li>
+            <li>Automated bill generation & history tracking</li>
+            <li>Admin and student login dashboards</li>
+        </ul>
+        `,
+        role: 'Full stack developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/IIITBHMedicalMangementSystem',
+        liveUrl: 'https://github.com/Siddharth-Nama/IIITBHMedicalMangementSystem',
+    },
 ];
 
 export const MY_EXPERIENCE = [
