@@ -158,6 +158,29 @@ export const PROJECTS: IProject[] = [
         </ul>
         `,
         role: 'Full Stack Developer',
+        sourceCode: 'https://github.com/ADC-Mahendragarh-C4GT',
+        liveUrl: 'https://adcfrontend.vercel.app/',
+    },
+    {
+        title: 'Weavy AI Clone',
+        slug: 'weavy.ai',
+        techStack: ['Next.js (App Router)', 'React', 'TypeScript', 'Tailwind CSS', 'Google Gemini API', 'Trigger.dev', 'PostgreSQL', 'Clerk Auth', 'Zustand', 'FFmpeg', 'Transloadit'],
+        thumbnail: '/projects/thumbnail/weavy.png', // Placeholder
+        images: ['/projects/images/weavy1.png', '/projects/images/weavy2.png'], // Placeholders
+        year: 2026,
+        description: `
+Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling users to orchestrate multi-modal LLM workflows using an intuitive drag-and-drop infinite canvas. The platform integrates Google Gemini for AI processing, Trigger.dev for serverless background execution, and PostgreSQL for workflow/run persistence. Designed with strict separation of concerns, real-time execution feedback, and production-grade architecture.
+        Key Modules:<br/>
+        <ul>
+            <li>Infinite canvas workflow builder (React Flow) with mini-map & zoom controls</li>
+            <li>6 node types: Text, Image Upload, Video Upload, LLM (Gemini), Crop Image, Extract Frame</li>
+            <li>Clerk-based authentication with protected user workspaces</li>
+            <li>Serverless execution engine with parallel DAG processing (Trigger.dev)</li>
+        </ul>
+        `,
+        role: 'Full stack developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/galaxy.ai_assessment',
+        liveUrl: 'https://siddharthgalxyassignment.vercel.app/',
     },
 ];
 
@@ -183,6 +206,7 @@ export const MY_EXPERIENCE = [
         description1: 'Built and deployed 3 + full-stack web/mobile apps using Django, REST APIs, and React/React Native, delivering scalable solutions that streamlined development workflows.',
         description2: 'Redesigned database schemas and restructured microservices, increasing query efficiency and enabling 30% rise in user engagement,enhanced features to boost performance by 25%.',
     },
+    
 ];
 
 export const EDUCATION = [
