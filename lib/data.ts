@@ -266,6 +266,27 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         sourceCode: 'https://github.com/Siddharth-Nama/ReactNativeSimpleForm',
         liveUrl: 'https://github.com/Siddharth-Nama/ReactNativeSimpleForm',
     },
+    {
+        title: 'Student Yoga Journey',
+        slug: 'studentyogajourney',
+        techStack: ['HTML', 'CSS', 'JavaScript', 'Django', 'REST API', 'PostgreSQL', 'Python'],
+        thumbnail: '/projects/thumbnail/yoga.png', // Placeholder
+        images: ['/projects/images/yoga1.png', '/projects/images/yoga2.png'], // Placeholders
+        year: 2024,
+        description: `
+        Developed my first web application to introduce students to structured yoga practices and track their wellness journey. The platform provides curated yoga content, multimedia learning resources, and personalized user profiles to monitor progress. Deployed live on PythonAnywhere as an early hands-on project in full-stack web development.
+        Key Modules:<br/>
+        <ul>
+            <li>User authentication & profile management</li>
+            <li>Curated yoga exercises with multimedia content</li>
+            <li>Progress tracking dashboard</li>
+            <li>Student-focused UI with responsive design</li>
+        </ul>
+        `,
+        role: 'Full stack developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/StudentYogaJourney',
+        liveUrl: 'https://siddharthnama70.pythonanywhere.com/login/',
+    },
 ];
 
 export const MY_EXPERIENCE = [
