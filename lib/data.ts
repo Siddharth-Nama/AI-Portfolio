@@ -224,6 +224,27 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
         sourceCode: 'https://github.com/Siddharth-Nama/OFFICIAL_IIITBH_ELECTION_PORTAL',
         liveUrl: 'https://siddharthnama2201070cs.pythonanywhere.com/account/',
     },
+    {
+        title: 'Student Progress Tracker - AI-Powered',
+        slug: 'studentprogresstracker',
+        techStack: ['Django', 'Python', 'HTML', 'CSS (Bootstrap)', 'JavaScript', 'PostgreSQL'],
+        thumbnail: '/projects/thumbnail/studentprogress.png', // Placeholder
+        images: ['/projects/images/studentprogress1.png', '/projects/images/studentprogress2.png'], // Placeholders
+        year: 2025,
+        description: `
+        Developed an AI-powered student performance monitoring platform to track attendance, analyze academic progress, and generate actionable insights. The system provides role-based dashboards for students, teachers, and administrators, along with automated PDF report generation and interactive performance visualizations. Deployed for real-world academic usage with secure authentication and structured data management.
+        Key Modules:<br/>
+        <ul>
+            <li>AI-based performance insights using OpenAI API</li>
+            <li>Attendance tracking with analytics</li>
+            <li>Role-based dashboards (Student / Teacher / Admin)</li>
+            <li>Interactive charts & progress visualization</li>
+        </ul>
+        `,
+        role: 'Full stack developer',
+        sourceCode: 'https://github.com/Siddharth-Nama/StudentProgressTracker_AI_powered',
+        liveUrl: 'https://siddprogresstracker.pythonanywhere.com/',
+    },
 ];
 
 export const MY_EXPERIENCE = [
