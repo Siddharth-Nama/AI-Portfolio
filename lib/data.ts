@@ -291,6 +291,13 @@ Built a high-performance Visual AI Workflow Builder(Weavi.ai clone), enabling us
 
 export const MY_EXPERIENCE = [
     {
+        title: 'SDE Intern',
+        company: 'Bureau id',
+        duration: 'April 2026 – Present',
+        description1: 'Develop and maintain backend microservices using Go, FastAPI, and REST APIs for 100+ financial products, improving modularity and compliance workflow efficiency.',
+        description2: 'Improve service reliability through structured logging, input validation, and debugging, while working with Git-based version control and CI/CD pipelines to support testing and seamless deployment.',
+    },
+    {
         title: 'Intern (Code for Government Tech 2025)',
         company: 'Haryana Government and Samagra Governance',
         duration: 'June 2025 – August 2025',
